@@ -4,3 +4,8 @@ __pycache__
 *.db
 *.pytest_cache
 .gitattributes
+zippedData/df_final.csv
+zippedData/df_final.csv
+zippedData/df_final.csv
+zippedData/movie_main_df_sliced.csv
+zippedData/main_df.csv
