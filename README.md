@@ -4173,9 +4173,67 @@ studio_df_fig_2 = studio_df_fig.groupby(
                                                        ascending=False)[:20]
 ```
 
+```python
+## from https://plotly.com/python/multiple-axes/ ##official plotly how to instructions
+fig = make_subplots(specs=[[{"secondary_y": True}]])
+# Add traces
+fig.add_trace(
+    go.Bar(x=studio_df_fig_merged.production_comp_exp[:10],
+           y=studio_df_fig_merged.world_collection_x[:10],
+           name="World Collection",
+           offset=True),
+    secondary_y=False,
+)
+fig.add_trace(
+    go.Bar(x=studio_df_fig_merged.production_comp_exp[:10],
+           y=studio_df_fig_merged.world_collection_y[:10],
+           name="Movie Released",
+           offset=True,
+           opacity=.6),
+    secondary_y=True,
+)
+# Add figure title
+fig.update_layout(title_text="Collection performance of top 10 movie studios")
+# Set x-axis title
+fig.update_xaxes(title_text="World Collection")
+# Set y-axes titles
+fig.update_yaxes(title_text="<b>World Collection</b>", secondary_y=False)
+fig.update_yaxes(title_text="<b>Number of Movie Released</b>",
+                 secondary_y=True)
+fig.show()
+```
+![png](./assets/plt_go_1.png)
 
-
-
+```python
+## from https://plotly.com/python/multiple-axes/ ##official plotly how to instructions
+fig = make_subplots(specs=[[{"secondary_y": True}]])
+# Add traces
+fig.add_trace(
+    go.Bar(x=studio_df_fig_merged_1.production_comp_exp[:10],
+           y=studio_df_fig_merged_1.budget_x[:10],
+           name="Budget",
+           offset=True),
+    secondary_y=False,
+)
+fig.add_trace(
+    go.Bar(x=studio_df_fig_merged_1.production_comp_exp[:10],
+           y=studio_df_fig_merged_1.budget_y[:10],
+           name="Movie Released",
+           offset=True,
+           opacity=.6),
+    secondary_y=True,
+)
+# Add figure title
+fig.update_layout(title_text="Budget performance of top 10 movie studios")
+# Set x-axis title
+fig.update_xaxes(title_text="Budget")
+# Set y-axes titles
+fig.update_yaxes(title_text="<b>Budget</b>", secondary_y=False)
+fig.update_yaxes(title_text="<b>Number of Movie Released</b>",
+                 secondary_y=True)
+fig.show()
+```
+![png](./assets/plt_go_2.png)
 
 Marvel Studios and Walt Disney has the best release count to world collection ratio. It took Universal Pictures way more budget to achieve the top spot.
 
@@ -4857,11 +4915,16 @@ franchaise_df.groupby('belongs_to_collection').mean()[[
     by='ROI_percentage',
     ascending=False)[:20].style.format(format_dict).background_gradient(
         cmap='afmhot')
+```
+![png](./assets/df_graph_4.png)
+Most franchise earn a lot on their investment. This is expected as there is a reason for film makers to visit same universe several times. More often than not it is because of their proven success record and popularity among movie consumers.
 
 
 
-Observation: None of them fall into a single genre.
 
+
+### which genre to franchaise
+On an average films that are part of a franchaise earn 727.47% return.
 
 ```python
 # joining and filtering using SQL statements
@@ -4874,7 +4937,8 @@ list_of_franchaise_df = sqldf(
         JOIN franchaise_df AS b 
         USING(belongs_to_collection);""")
 ```
-
+![png](./assets/df_graph_3.png)
+Observation: None of them fall into a single genre.
 
 ```python
 # most often produced genre for serialization of movies 
@@ -4890,7 +4954,7 @@ franchaise_genre.columns = [
 franchaise_genre=franchaise_genre.reset_index()
 franchaise_genre.style.background_gradient(cmap='PRGn')
 ```
-
+![png](./assets/df_graph_2.png)
 
 
 
@@ -4925,7 +4989,7 @@ fig.update_yaxes(title_text="<b>Number of Movie Released</b>",
                  secondary_y=True)
 fig.show()
 ```
-
+![png](./assets/plt_go_0.png)
 Adventure, Action, Comedy market is saturated. Horror, Thriller, Mystery release count is lower with higher mean return percentage. This recommendation will alter if we look at collection instead of ROI% because those genre requires less budget, so the return percentage is generally higher. 
 
 ### non franchise info
@@ -5156,7 +5220,6 @@ combo_genre = main_df_raw.iloc[:,18:-1].copy()
 
 ```python
 combo_genre=combo_genre.corr()
-combo_genre.style.background_gradient(cmap='PuRd')
 ```
 
 
@@ -5205,7 +5268,7 @@ plt.show()
 
 
     
-![png](./assets/ output_269_0.png)
+![png](./assets/output_269_0.png)
     
 
 
