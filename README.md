@@ -5230,16 +5230,16 @@ correlation_top_bottom(combo_genre)
 
     Positive correlations:
               index            feature_combo  correlation
-    0    397        Music and Musical     0.552813
-    1    359        Musical and Music     0.552813
-    2     38  Adventure and Animation     0.353164
-    3    361  Animation and Adventure     0.353164
-    4    316       Mystery and Horror     0.242051
-    5      1     Adventure and Action     0.234557
-    6     50    Biography and History     0.203732
-    7    256      Thriller and Horror     0.199766
-    8      7         Crime and Action     0.184287
-    9    255     Mystery and Thriller     0.176246
+    0    359        Musical and Music     0.552813
+    1     38  Adventure and Animation     0.353164
+    2    316       Horror and Mystery     0.242051
+    3      1     Adventure and Action     0.234557
+    4     50    Biography and History     0.203732
+    5    256      Thriller and Horror     0.199766
+    6      7         Action and Crime     0.184287
+    7    255     Thriller and Mystery     0.176246
+    8     29     Adventure and Family     0.157636
+    9    198     Animation and Family     0.140764
     
      ----------------------------------------------------------------------
            Negative correlations:
@@ -5248,12 +5248,12 @@ correlation_top_bottom(combo_genre)
     1    112  Comedy and Thriller    -0.248184
     2     78  Animation and Drama    -0.203516
     3     23  Adventure and Drama    -0.191267
-    4    323     Drama and Horror    -0.184330
-    5     76     Horror and Drama    -0.184330
-    6      3     Action and Drama    -0.155409
-    7    116    Comedy and Horror    -0.150491
-    8    115   Mystery and Comedy    -0.148315
-    9      5    Comedy and Action    -0.134239
+    4     76     Horror and Drama    -0.184330
+    5      3     Action and Drama    -0.155409
+    6    116    Comedy and Horror    -0.150491
+    7    115   Comedy and Mystery    -0.148315
+    8      5    Comedy and Action    -0.134239
+    9      8   Action and Romance    -0.124091
     
 
 ## Variability of profitability on different metrics
