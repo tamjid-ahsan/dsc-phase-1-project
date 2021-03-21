@@ -434,19 +434,6 @@ df_1.head(3)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -562,19 +549,6 @@ movie_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -726,10 +700,6 @@ unique_genre
 
     Wall time: 29.5 ms
     
-
-
-
-
     ['NoInfo',
      'Action',
      'Adventure',
@@ -796,19 +766,6 @@ movie_main_df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1068,19 +1025,6 @@ movie_main_df_sliced.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1160,19 +1104,6 @@ movie_main_df_sliced
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1675,18 +1606,6 @@ merge_1
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -2410,19 +2329,6 @@ df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2636,19 +2542,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3395,18 +3288,6 @@ df_final.head(4)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -3680,540 +3561,6 @@ df_final = df_final[rearrange_]
 ```
 
 
-```python
-df_final
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>imdb_id</th>
-      <th>primaryTitle</th>
-      <th>originalTitle</th>
-      <th>startYear</th>
-      <th>release_date</th>
-      <th>runtimeMinutes</th>
-      <th>budget</th>
-      <th>world_collection</th>
-      <th>int_collection</th>
-      <th>dom_collection</th>
-      <th>popularity</th>
-      <th>vote_average</th>
-      <th>vote_count</th>
-      <th>production_comp</th>
-      <th>original_language</th>
-      <th>belongs_to_collection.name</th>
-      <th>genres</th>
-      <th>NoInfo</th>
-      <th>Action</th>
-      <th>Adventure</th>
-      <th>Biography</th>
-      <th>Drama</th>
-      <th>Fantasy</th>
-      <th>Comedy</th>
-      <th>War</th>
-      <th>Crime</th>
-      <th>Romance</th>
-      <th>Family</th>
-      <th>History</th>
-      <th>Sci-Fi</th>
-      <th>Thriller</th>
-      <th>Western</th>
-      <th>Sport</th>
-      <th>Mystery</th>
-      <th>Horror</th>
-      <th>Music</th>
-      <th>Animation</th>
-      <th>Musical</th>
-      <th>overview</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>tt0100275</td>
-      <td>The Wandering Soap Opera</td>
-      <td>La Telenovela Errante</td>
-      <td>2017</td>
-      <td>2017-08-10</td>
-      <td>80</td>
-      <td>0</td>
-      <td>3.624000e+03</td>
-      <td>NaN</td>
-      <td>3624.0</td>
-      <td>1.400</td>
-      <td>6.5</td>
-      <td>9</td>
-      <td>Poetastros, Suricato</td>
-      <td>es</td>
-      <td>NaN</td>
-      <td>Comedy,Drama,Fantasy</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>True</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>The film revolves around the concept of soap o...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>tt0315642</td>
-      <td>Wazir</td>
-      <td>Wazir</td>
-      <td>2016</td>
-      <td>2016-01-07</td>
-      <td>103</td>
-      <td>5200000</td>
-      <td>9.200000e+06</td>
-      <td>4.509543e+06</td>
-      <td>1124045.0</td>
-      <td>5.191</td>
-      <td>6.6</td>
-      <td>90</td>
-      <td>Getaway Films Private Limited, Vinod Chopra Fi...</td>
-      <td>hi</td>
-      <td>NaN</td>
-      <td>Action,Crime,Drama</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>'Wazir' is a tale of two unlikely friends, a w...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>tt0331314</td>
-      <td>Bunyan and Babe</td>
-      <td>Bunyan and Babe</td>
-      <td>2017</td>
-      <td>2017-01-12</td>
-      <td>84</td>
-      <td>0</td>
-      <td>7.206000e+04</td>
-      <td>7.206000e+04</td>
-      <td>NaN</td>
-      <td>20.049</td>
-      <td>6.2</td>
-      <td>15</td>
-      <td>Toonz Entertainment, Exodus Film Group</td>
-      <td>en</td>
-      <td>NaN</td>
-      <td>Adventure,Animation,Comedy</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>Travis and his sister, Whitney, visit their gr...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>tt0365907</td>
-      <td>A Walk Among the Tombstones</td>
-      <td>A Walk Among the Tombstones</td>
-      <td>2014</td>
-      <td>2014-09-18</td>
-      <td>114</td>
-      <td>28000000</td>
-      <td>5.883438e+07</td>
-      <td>3.252678e+07</td>
-      <td>26307600.0</td>
-      <td>34.302</td>
-      <td>6.3</td>
-      <td>2129</td>
-      <td>Traveling Picture Show Company (TPSC), Jersey ...</td>
-      <td>en</td>
-      <td>NaN</td>
-      <td>Action,Crime,Drama</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>Private investigator Matthew Scudder is hired ...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>tt0369610</td>
-      <td>Jurassic World</td>
-      <td>Jurassic World</td>
-      <td>2015</td>
-      <td>2015-06-06</td>
-      <td>124</td>
-      <td>150000000</td>
-      <td>1.671713e+09</td>
-      <td>1.018131e+09</td>
-      <td>652385625.0</td>
-      <td>63.489</td>
-      <td>6.6</td>
-      <td>16595</td>
-      <td>Amblin Entertainment, Legendary Pictures, Univ...</td>
-      <td>en</td>
-      <td>Jurassic Park Collection</td>
-      <td>Action,Adventure,Sci-Fi</td>
-      <td>False</td>
-      <td>True</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>Twenty-two years after the events of Jurassic ...</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>13696</th>
-      <td>tt9908390</td>
-      <td>Le lion</td>
-      <td>Le lion</td>
-      <td>2020</td>
-      <td>2020-01-29</td>
-      <td>95</td>
-      <td>0</td>
-      <td>3.507711e+06</td>
-      <td>3.507711e+06</td>
-      <td>NaN</td>
-      <td>57.734</td>
-      <td>5.3</td>
-      <td>101</td>
-      <td>TF1 Studio, Monkey Pack Films, Pathé!, TF1 Fil...</td>
-      <td>fr</td>
-      <td>NaN</td>
-      <td>Comedy</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>A psychiatric hospital patient pretends to be ...</td>
-    </tr>
-    <tr>
-      <th>13697</th>
-      <td>tt9908960</td>
-      <td>Pliusas</td>
-      <td>Pliusas</td>
-      <td>2018</td>
-      <td>2018-09-07</td>
-      <td>90</td>
-      <td>0</td>
-      <td>7.463700e+04</td>
-      <td>7.463700e+04</td>
-      <td>NaN</td>
-      <td>0.600</td>
-      <td>7.0</td>
-      <td>1</td>
-      <td>Others,No info</td>
-      <td>lt</td>
-      <td>NaN</td>
-      <td>Comedy</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>13698</th>
-      <td>tt9911196</td>
-      <td>The Marriage Escape</td>
-      <td>De beentjes van Sint-Hildegard</td>
-      <td>2020</td>
-      <td>2020-02-10</td>
-      <td>103</td>
-      <td>0</td>
-      <td>7.760946e+06</td>
-      <td>7.760946e+06</td>
-      <td>NaN</td>
-      <td>4.372</td>
-      <td>8.5</td>
-      <td>8</td>
-      <td>Others,No info</td>
-      <td>nl</td>
-      <td>NaN</td>
-      <td>Comedy,Drama</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>Jan has been married to Gedda for 35 years. Ge...</td>
-    </tr>
-    <tr>
-      <th>13699</th>
-      <td>tt9914942</td>
-      <td>La vida sense la Sara Amat</td>
-      <td>La vida sense la Sara Amat</td>
-      <td>2019</td>
-      <td>2019-07-12</td>
-      <td>74</td>
-      <td>0</td>
-      <td>5.979400e+04</td>
-      <td>5.979400e+04</td>
-      <td>NaN</td>
-      <td>1.940</td>
-      <td>7.4</td>
-      <td>5</td>
-      <td>Massa d'Or Produccions</td>
-      <td>ca</td>
-      <td>NaN</td>
-      <td>Drama</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>Pep, a 13-year-old boy, is in love with a girl...</td>
-    </tr>
-    <tr>
-      <th>13700</th>
-      <td>tt9916428</td>
-      <td>The Secret of China</td>
-      <td>Hong xing zhao yao Zhong guo</td>
-      <td>2019</td>
-      <td>2019-08-08</td>
-      <td>0</td>
-      <td>0</td>
-      <td>4.408165e+06</td>
-      <td>4.408165e+06</td>
-      <td>NaN</td>
-      <td>0.651</td>
-      <td>7.0</td>
-      <td>1</td>
-      <td>Others,No info</td>
-      <td>zh</td>
-      <td>NaN</td>
-      <td>Adventure,History,War</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>True</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>False</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-<p>13701 rows × 39 columns</p>
-</div>
-
 
 
 
@@ -4315,19 +3662,6 @@ main_df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -4597,19 +3931,6 @@ main_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -5163,19 +4484,6 @@ timing_df.head(3)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
