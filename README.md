@@ -1,6 +1,6 @@
 # Movie Industry analysis for Microsoft
 
-By: [Tamjid Ahsan](linkedin.com/in/tamjidahsan)
+By: [Tamjid Ahsan](https://www.linkedin.com/in/tamjidahsan/)
 ___
 <img src="./assets/image_1.jpg"
      alt="Logo!"
