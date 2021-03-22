@@ -54,18 +54,18 @@ File containing detailed movie info inside [title.basics.tsv.gz](https://dataset
 
 ### Scraping using selenium
 
-selenium is used to scrape data from [Box Office Mojo]('https://www.boxofficemojo.com/year/world/'). Years from 2014 to 2021 is scraped. Fetched information about world collection, international_collection, domestic_collection, and imdb_code.
+Selenium is used to scrape data from [Box Office Mojo]('https://www.boxofficemojo.com/year/world/'). Years from 2014 to 2021 is scraped. Fetched information about world collection, international collection, domestic collection, and imdb code.
 
 Note: ***repo does not include temp files***
 
 ## From TMDb API
 
-Information on same range of years was collected from TBDb using API.
+Information on same range of years was collected from TMDb using API.
 
 # Preparing datasets
 
 ## IMDb
-All data was merged to create the cleaned database.
+All data is merged to create the cleaned database.
 ### choosing features
 
 *****Choosing to focus analysis on movies released between 2015 to 2020, where primary spoken language is English.*****
@@ -75,7 +75,7 @@ All data was merged to create the cleaned database.
 - Microsoft should focus only on releasing content in <b>English</b> for their kick-off. This gives them enough exposure and get noticed as a big player in the game, as they intend to be. Although they should focus on other territory to explore as there are ample opportunities left untapped. For example, in 2020 China surpassed North America in terms of industry value.\
 As Microsoft has business across the globe, this should be relatively straight forward for them.
 
-- I am also choosing not to focus on <b>ultra-low</b> budget movies for this analysis. Microsoft is one of the biggest corporations on earth. They have financial support to go for the big studios.
+- I am also choosing not to include <b>ultra-low</b> budget movies for this analysis. Microsoft is one of the biggest corporations on earth. They have financial support to go after the big studios.
 - I am also not including <b>'Documentary', 'Short', 'Adult', 'Reality-TV', 'Game-Show', 'Talk-Show', 'News', 'Film-Noir'</b> titles. Those are entirely different class of product to be compared with conventional movies.
 
 
@@ -239,7 +239,7 @@ By franchise I mean serialization of movies either based on a related intellectu
 ![png](./assets/df_graph_4.png)
 
     
-Most franchise earn a lot on their investment. This is expected as there is a reason for film makers to visit same universe several times. More often than not it is because of their proven success record and popularity among movie consumers.
+Most franchise earn a lot on their investment. This is expected, as there is a reason for film makers to visit same universe several times. More often than not it is because of their proven success record and popularity among movie consumers.
 
 
 
@@ -257,7 +257,7 @@ Observation: None of them fall into a single genre.
 ![png](./assets/plt_go_0.png)
 Adventure, Action, Comedy market is saturated. Horror, Thriller, Mystery release count is lower with higher mean return percentage. This recommendation will alter if we look at collection instead of ROI% because those genre requires less budget, so the return percentage is generally higher. 
 
-### non franchise info
+### Non franchise info
 
 
 
