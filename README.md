@@ -255,7 +255,7 @@ Observation: None of them fall into a single genre.
 
 
 ![png](./assets/plt_go_0.png)
-Adventure, Action, Comedy market is saturated. Horror, Thriller, Mystery release count is lower with higher mean return percentage. This recommendation will alter if we look at collection instead of ROI% because those genre requires less budget, so the return percentage is generally higher. 
+Adventure, Action, Comedy market is saturated. Horror, Thriller, Mystery release count is higher with higher mean return percentage. This recommendation will alter if we look at collection instead of ROI% because those genre requires less budget, so the return percentage is generally higher. 
 
 ### Non franchise info
 
