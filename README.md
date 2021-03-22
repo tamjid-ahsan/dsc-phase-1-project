@@ -245,7 +245,7 @@ Most franchise earn a lot on their investment. This is expected as there is a re
 
 
 
-### Which genre to franchaise
+### Which genre to franchise
 On an average films that are part of a franchaise earn 727.47% return.
 
 
