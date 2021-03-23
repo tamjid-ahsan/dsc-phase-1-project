@@ -325,7 +325,7 @@ Lets summarize and reiterate:
 
 3. All the analysis leads towards starting a ***franchise*** in a shared movie universe. This must be be priority when selecting genre, director and other crew and cast. There must be option for serialization in the future. And for this ****Horror, Thriller, Mystery**** or ****Adventure, Action, Comedy**** genre combination should be prioritized. 
     
-    It very rare that a movie falls in only one genre this days.
+    It is very rare that a movie falls in only one genre this days.
 
 # Next Steps
 
